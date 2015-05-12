@@ -86,7 +86,7 @@ namespace CadastroAlunos.Controllers
             cmd.Parameters.AddWithValue("@Cpf", aluno.Cpf);
             cmd.Parameters.AddWithValue("@Rua", aluno.Rua);
             cmd.Parameters.AddWithValue("@Numero", aluno.Numero);
-            cmd.Parameters.AddWithValue("@Complemento", aluno.Complemento);
+            cmd.Parameters.AddWithValue("@Complemento", aluno.Complemento = string.IsNullOrEmpty(aluno.Complemento) ? "" : aluno.Complemento);
             cmd.Parameters.AddWithValue("@Bairro", aluno.Bairro);
             cmd.Parameters.AddWithValue("@Cidade", aluno.Cidade);
             cmd.Parameters.AddWithValue("@Estado", aluno.Estado);
