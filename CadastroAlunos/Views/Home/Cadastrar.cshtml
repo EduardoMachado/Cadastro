@@ -3,13 +3,27 @@
 @{
     ViewBag.Title = "Cadastro de Alunos";
 }
-<div class="jumbotron" >
+<div class="jumbotron">
     <h1>Novo aluno</h1>
     <p></p>
     <p>@Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-primary" })</p>
 </div>
 @using (Html.BeginForm())
 {
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-1.9.0.intellisense.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="~/Scripts/jquery-1.9.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.8.24.js"></script>
+    <script src="~/Scripts/jquery-ui-1.8.24.min.js"></script>
+    <script src="~/Scripts/jquery-1.9.0.js"></script>
+
     <fieldset>
         <legend>Cadastro do Aluno</legend>
         <ul class="nav nav-pills">
@@ -109,8 +123,8 @@
 
         </div>
     </fieldset>
-    
-   
+
+
 }
 
 
