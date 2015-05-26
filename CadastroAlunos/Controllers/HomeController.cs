@@ -303,5 +303,10 @@ namespace CadastroAlunos.Controllers
                return View();
            }
        }
+
+       public ActionResult Wiki()
+       {
+           return View();
+       }
     }
 }

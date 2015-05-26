@@ -207,6 +207,14 @@
     <None Include="Properties\PublishProfiles\Homologação.pubxml" />
     <None Include="Properties\PublishProfiles\Produção.pubxml" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="img\bootstrap.png" />
+    <Content Include="img\commit.png" />
+    <Content Include="img\Imagem.png" />
+    <Content Include="img\mvc.jpg" />
+    <Content Include="img\sql.png" />
+    <Content Include="img\Sync.png" />
+    <Content Include="img\Team.png" />
+    <Content Include="img\visualc#.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
@@ -242,6 +250,7 @@
     <Content Include="Views\Home\Editar.cshtml" />
     <Content Include="Views\LogOn.cshtml" />
     <Content Include="Views\Home\LogOn.cshtml" />
+    <Content Include="Views\Home\Wiki.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
