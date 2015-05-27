@@ -209,8 +209,10 @@
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="img\bootstrap.png" />
     <Content Include="img\commit.png" />
+    <Content Include="img\github.png" />
     <Content Include="img\Imagem.png" />
     <Content Include="img\mvc.jpg" />
+    <Content Include="img\Publish.png" />
     <Content Include="img\sql.png" />
     <Content Include="img\Sync.png" />
     <Content Include="img\Team.png" />
