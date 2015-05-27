@@ -207,6 +207,7 @@
     <None Include="Properties\PublishProfiles\Homologação.pubxml" />
     <None Include="Properties\PublishProfiles\Produção.pubxml" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="img\Aplicacao.png" />
     <Content Include="img\bootstrap.png" />
     <Content Include="img\commit.png" />
     <Content Include="img\github.png" />
