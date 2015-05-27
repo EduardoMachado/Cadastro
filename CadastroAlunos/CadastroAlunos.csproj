@@ -212,6 +212,7 @@
     <Content Include="img\github.png" />
     <Content Include="img\Imagem.png" />
     <Content Include="img\mvc.jpg" />
+    <Content Include="img\PublicadoServidor.png" />
     <Content Include="img\Publish.png" />
     <Content Include="img\sql.png" />
     <Content Include="img\Sync.png" />
